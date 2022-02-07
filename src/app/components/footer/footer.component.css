@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&display=swap');
+
+
+::ng-deep * {
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background-color: #151515;
+    height: 300px;
+    padding-top: 3%;
+}@media screen and (max-width: 768px){
+    .footer{
+        height: 420px;
+    }
+}
+
+
+
+
+.box1{
+    padding-left: 10%;
+    width: 250px;
+    float: left;
+}
+
+.box1 img{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.box1 p{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .box1, .box2{
+        float: none;
+        width: 80%;
+        margin-top: 25px;
+    }
+}
+
+.box2{
+    float: left;
+    position: absolute;
+    right: 10%;
+
+}@media screen and (max-width: 768px){
+    .box2{
+        right: auto;
+        float: none;
+        padding-left: 10%;
+    }
+}
+
+
+.box2 h2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FAFAFA;
+}@media screen and (max-width: 768px){
+    .box2 h2{
+        font-size: 22px;
+    }
+}
+.box2 span{
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FAFAFA;
+}
+
+.box3{
+    border-top: 1px solid #666666;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding-top: 40px;
+}@media screen and (max-width: 450px){
+    .box3{
+        padding-top: 20px;
+    }
+}
+
+.box3 p{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 7.5%;
+}

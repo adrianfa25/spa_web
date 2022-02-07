@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&display=swap');
+
+
+::ng-deep * {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 110vh;
+    background-image: url('../../../assets/img/bg.jpg');
+}@media screen and (max-width:1700px){
+    .container{
+        height: 1200px;
+    }
+}
+
+.content{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+
+.image{
+    border: 1px solid #000;
+    width: 45%;
+    height: 650px;
+    float: left;
+}
+
+.text{
+    padding-left: 5%;
+    width: 45%;
+    float: left;
+}
+
+
+
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 136.69%;
+    color: #132A60;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 90%;
+    color: #132A60;
+}
+
+p{
+    font-family: "Open sans";
+    width: 85%;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}

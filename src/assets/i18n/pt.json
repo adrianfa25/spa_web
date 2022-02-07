@@ -1,0 +1,61 @@
+{
+    "OPEN":{
+        "Title":"Infraestrutura que revoluciona o seu negócio",
+        "Subtitle": "Oferecemos soluções de infraestrutura sólidas que otimizam o desempenho de sua empresa. De DevOps e SRE, tecnologias GIS, personalizadas e muito mais.",
+        "Button": "Solicite uma cotação",
+        "Continue": "Como podemos te ajudar?"
+    },
+
+    "INFOSECTION1":{
+        "Title":"DevOps & SRE",
+        "Content1-1": "DevOps & SRE são diferentes metodologias que surgiram para aumentar o desempenho dos negócios e simplificar os processos.",
+        "Content1-2": "Usando tecnologias automatizadas, eles usam a cultura de colaboração entre diversas equipes a seu favor para aproveitar ao máximo os talentos e os recursos.",
+        "Subtitle2": "DevOps",
+        "Content2": "Tenha à sua disposição um software altamente versátil, com menos tempo de produção e mais adaptabilidade",
+        "Content2-li-1": "Reduza o tempo de espera e as tarefas manuais",
+        "Content2-li-2": "Melhore a qualidade e a segurança do seu código",
+        "Content2-li-3": "Aproveite a nuvem com escalabilidade ilimitada",
+        "Subtitle3": "SRE",
+        "Content3": "Controle o desempenho de seus recursos para ter sempre o melhor desempenho, qualidade e precauções contra desastres",
+        "Content3-li-1": "Monitoramento da plataforma para melhor entendê-la",
+        "Content3-li-2": "Desempenho do banco de dados e prevenção de problemas",
+        "Content3-li-3": "Investigue a eficácia do seu código e como e onde melhorá-lo",
+        "Content3-li-4": "Melhora a eficiência da infraestrutura"
+    },
+
+    "INFOSECTION2":{
+        "Title":"Tecnologia GIS",
+        "Content1": "Use dados reais e precisos para analisar sua estratégia de marketing e invista em publicidade com sabedoria. Ao ter dados mais precisos, você pode obter melhores resultados com menos investimento",
+        "Content2": "Para gerir um negócio é essencial conhecê-lo perfeitamente. É por isso que oferecemos tecnologia GIS que permite tomar melhores decisões analisando criticamente os dados obtidos.",
+        "Content3": "Saiba onde estão seus clientes e como suas vendas estão distribuídas geograficamente. Conheça melhor seu negócio e seu público para direcionar seus esforços na direção certa",
+        "Content4": "Em uma atividade tão complexa como a logística, é natural que haja muito desperdício. Mas com um sistema GIS você pode visualizar oportunidades para melhorar seu sistema de transporte e torná-lo mais eficiente"
+    },
+
+    "INFOSECTION3":{
+        "Title": "Soluções personalizadas",
+        "Content1": "Criamos soluções sob medida e altamente personalizadas a partir de soluções básicas. É assim que conseguimos fornecer um sistema sólido com tudo o que você precisa sem ter que esperar grandes prazos que atrasam o seu negócio.",
+        "Content2": "Oferecemos suporte técnico para garantir que quaisquer falhas sejam corrigidas rapidamente"
+    },
+
+    "CONTACT":{
+        "Title":"Solicite uma cotação",
+        "Name": "Nome",
+        "Company": "Empresa",
+        "Email": "Email",
+        "Phone": "Telefone",
+        "Message": "Mensagem",
+        "Button": "Enviar mensagem",
+        "Subtitle1": "Contate-Nos",
+        "Contact-mail": "support@farjitecnologia.com", 
+        "Subtitle2": "Onde estamos?",
+        "Place1": "Montevideo, Uruguay",
+        "Place2": "Curitiba, Brasil",
+        "Place3": "Miami, Estados Unidos",
+        "Up": "Voltar acima"
+    },
+
+    "FOOTER":{
+        "Title": "As melhores soluções tecnológicas para o seu negócio",
+        "Subtitle": "Vamos conversar!"
+    }
+}

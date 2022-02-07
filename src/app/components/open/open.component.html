@@ -1,0 +1,35 @@
+<div class="container-open">
+    <div class="content">
+
+        <div class="title-content">
+            <h2 class="title">
+                {{ "OPEN.Title" | translate }}
+            </h2>
+        </div>
+        <div class="description-content">
+            <p class="description">
+                {{ "OPEN.Subtitle" | translate }}
+            </p>
+        </div>
+
+
+        <div class="open-button">
+            <button class="button" mat-raised-button color="primary" (click)="scrollTo('contact')">{{ "OPEN.Button" | translate }}</button>
+        </div>
+
+    </div>
+
+    <div class="frame">
+        <img src="../../../assets/img/frame1.svg" />
+    </div>
+
+
+    <div class="continue-button" (click)="scrollTo('container1')">
+        {{ "OPEN.Continue" | translate }}<br/>
+        <img src="../../../assets/img/arrow.svg" />
+    </div>
+
+
+
+
+</div>

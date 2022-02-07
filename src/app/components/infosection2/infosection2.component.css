@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&display=swap');
+
+::ng-deep * {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   
+    height: 100vh;
+    background-image: url('../../../assets/img/bg.jpg');
+    min-height: 900px;
+
+}@media screen and (max-width: 1300px){
+    .container{
+        height: 900px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        height: 1550px;
+    }
+}@media screen and (max-width: 450px){
+    .container{
+        height: 1800px;
+    }
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 136.69%;
+    text-align: center;
+    color: #132A60;
+
+    padding-top: 5%;
+}
+
+.items{
+    width: 80%;
+    height: 53vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}@media screen and (max-width: 1351px){
+    .items{
+        padding-top: 50px;
+    }
+}
+
+.item{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}@media screen and (max-width: 1366px){
+    .item{
+        margin-bottom: 5%;
+    }
+}@media screen and (max-width: 1200px){
+    .item{
+        float: none;
+        width: 100%;
+
+    }
+}@media screen and (max-width: 768px){
+    .item{
+        margin-bottom: 100px;
+    }
+}
+
+img{
+    float: left;
+    vertical-align: middle; 
+    width: 150px;
+    height: 150px;
+    margin-right: 7%;
+}@media screen and (max-width: 768px){
+    img{
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+p{
+    font-family: "Open sans";
+    width: 95%;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+.inside3, .inside4{
+    padding-top: 50px;
+}@media screen and (max-width: 1351px){
+    .inside3, .inside4{
+        padding-top: 0px;
+    }
+}

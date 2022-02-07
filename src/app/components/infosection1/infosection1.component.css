@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+::ng-deep * {
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    height: 100vh;
+    background-image: url('../../../assets/img/bgcontact.svg');
+    min-height: 800px;
+
+}
+@media screen and (max-width: 1000px){
+    .container1{
+        height: 1100px;
+        background: #FFFFFF;
+    }
+}@media screen and (max-width: 450px){
+    .container1{
+        height: 1100px;
+    }
+}
+
+.items{
+    width: 80%;
+    height: 80vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+@media screen and (max-width:1000px){
+    .items{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+}
+
+.item{
+    float: left;
+    width: 50%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}@media screen and (max-width: 1366px){
+    .item{
+        margin-bottom: 5%;
+    }
+}@media screen and (max-width:1000px){
+    .item{
+        margin-bottom: 0;
+        float: none;
+        width: 90%;
+        height: auto;
+
+    }
+}
+
+h2{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    color: #132A60;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 25px;
+
+    color: #132A60;
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li{
+    margin-bottom: 10px;
+    font-family: "Open sans";
+    display: flex;
+
+}
+p{
+    font-family: "Open sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.icon{
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #132A60;
+    margin-right: 15px;
+}
+
+
+
+
+
+.inside1{
+    width: 80%;
+    margin-right: auto;
+}@media screen and (max-width: 1000px)
+{
+    .inside1{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+.inside2{
+    width: 80%;
+    margin-left: auto;
+}@media screen and (max-width: 1000px)
+{
+    .inside2{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.inside2 img{
+    margin-left: 10%;
+}
+
+
+
+
+
+
+.inside3{
+    width: 80%;
+    margin-right: auto;
+}@media screen and (max-width: 1000px)
+{
+    .inside3{
+        width: 100%;
+        margin-top: 50px;
+
+    }
+}
+
+
+
+
+
+
+.inside4{
+    width: 80%;
+    margin-left: auto;
+}@media screen and (max-width: 1000px)
+{
+    .inside4{
+        width: 100%;
+        margin-top: 50px;
+
+    }
+}

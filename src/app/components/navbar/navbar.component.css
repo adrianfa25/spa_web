@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&display=swap');
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    padding: 50px;
+    display: inline-block;
+}@media screen and (max-width: 768px)
+{
+    .logo{
+        padding: 5px;
+    }
+}
+
+.logo img{
+    width: 192px;
+    height: 72px;
+}@media screen and (max-width: 768px)
+{
+    .logo img{
+    width: 144px;
+    height: 54px;    }
+}
+
+
+/* Select */
+
+.icon {
+    width: 30px;
+    margin-right: 8px;
+    position: static;
+    float: left;
+}
+.icon-list {
+    width: 30px;
+    margin-right: 8px;
+    position: static;
+    float: left;
+}
+@media screen and (max-width: 768px){
+    .icon-list{
+        margin-bottom: 10px;
+    }
+}
+.select-box__input-text {
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.text-in {
+    padding-bottom: 10px;
+    position: static;
+}@media screen and (max-width: 1200px)
+{
+    .text-in{
+        display: none;
+    }
+}
+
+.select-box {
+    font-family: "Open Sans";
+    position: relative;
+    width: 10%;
+    font-size: 19px;
+    color: #60666d;
+    float: right;
+    padding-right: 50px;
+    vertical-align: middle;
+}@media screen and (max-width:1500px){
+    .select-box{
+        width: 14%;
+    }
+}@media screen and (max-width:1200px){
+    .select-box{
+        width: 10%;
+    }
+}
+
+.select-box__current {
+    position: relative;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid #f0f0f0;
+}@media screen and (max-width:768px){
+    .select-box__current{
+        border: 0;
+    }
+}
+
+.select-box__current:focus+.select-box__list {
+    opacity: 1;
+    -webkit-animation-name: none;
+    animation-name: none;
+}
+
+.select-box__current:focus+.select-box__list .select-box__option {
+    cursor: pointer;
+}
+
+.select-box__current:focus .select-box__icon {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.select-box__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 20px;
+    opacity: 0.3;
+    transition: 0.2s ease;
+}@media screen and (max-width:768px){
+    .select-box__icon{
+        right: -30px;
+    }
+}
+
+.select-box__value {
+    display: flex;
+}
+
+.select-box__input {
+    display: none;
+}
+
+.select-box__input:checked+.select-box__input-text {
+    display: block;
+}
+
+.select-box__list {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-animation-name: HideList;
+    animation-name: HideList;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: step-start;
+    animation-timing-function: step-start;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+
+}@media screen and (max-width: 1000px){
+    .select-box__list{
+        width: 50%;
+    }
+}@media screen and (max-width: 768px){
+    .select-box__list{
+        width: 70%;
+        border-radius: 40px;
+        z-index: 999;
+        background-color: #fff;
+    }
+}
+
+
+.select-box__option {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.select-box__option:hover,
+.select-box__option:focus {
+    color: #546c84;
+    background-color: #fbfbfb;
+}
+
+@-webkit-keyframes HideList {
+    from {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+    to {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+    }
+}
+
+@keyframes HideList {
+    from {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+    to {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+    }
+}

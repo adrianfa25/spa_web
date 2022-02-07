@@ -1,0 +1,49 @@
+<div class="contact">
+
+    <div class="content">
+
+        <div class="form">
+            <h2>{{"CONTACT.Title" | translate }}</h2>
+            <form>
+                <input name='user_name' type='text' placeholder='{{"CONTACT.Name" | translate }}' />
+                <input name='company' type='company' placeholder='{{"CONTACT.Company" | translate }}' />
+                <input name='user_email' type='email' placeholder='{{"CONTACT.Email" | translate }}' />
+                <input name='phone' type='phone' placeholder='{{"CONTACT.Phone" | translate }}' />
+                <textarea name='message' placeholder='{{"CONTACT.Message" | translate }}'></textarea>
+                <button class="open-button" type="submit" mat-raised-button color="primary">{{"CONTACT.Button" | translate }}</button>
+
+            </form>
+
+        </div>
+
+
+        <div class="contact1">
+            <h3>{{"CONTACT.Subtitle1" | translate }}</h3>
+            <span class="icon"><mat-icon [inline]="true">email</mat-icon>
+                {{"CONTACT.Contact-mail" | translate }}
+            </span>
+        </div>
+
+        <div class="contact2">
+            <h3>{{"CONTACT.Subtitle2" | translate }}</h3>
+            <ul>
+                <li><span class="icon"><mat-icon [inline]="true">place</mat-icon>
+                    {{"CONTACT.Place1" | translate }}
+                </span></li>
+                <li><span class="icon"><mat-icon [inline]="true">place</mat-icon>
+                    {{"CONTACT.Place2" | translate }}
+                </span></li>
+                <li><span class="icon"><mat-icon [inline]="true">place</mat-icon>
+                    {{"CONTACT.Place3" | translate }}
+                </span></li>
+            </ul>
+            <div class="top" (click)="scrollToTop()">
+                <div class="toptext">{{"CONTACT.Up" | translate }}
+                </div>
+                <div class="icon-arrow"><mat-icon [inline]="true">arrow_upward</mat-icon></div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
